@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+    
+  <script>
+    var dato = prompt("¿Cuál es tu nombre?");
+    var dato1 = prompt("¿Cuál es tu película favorita?");
+    var respuesta = dato1.toLowerCase();
+
+    if (respuesta === "shrek") {
+        document.write("<img src='https://elcomercio.pe/resizer/v2/OVSRQ4YQ2RF3PESEOCW6NSADHU.jpg?auth=97dc77af2438d5dcb920968d1a582b003c9afcab37488fe4ff5200129585960a&width=1200&height=1200&quality=75&smart=true' alt='shrek' width='1000'>");
+    } 
+    else if (respuesta === "rocky") {
+        document.write("<img src='https://www.film89.co.uk/wp-content/uploads/2018/11/2A10F9E0-C89F-4177-82CF-2C966D5FB27E.jpeg' alt='Rocky' width='1000'>");   
+    }
+    else if (respuesta === "interestelar") {
+        document.write("<img src='https://hdwallpaperim.com/wp-content/uploads/2017/08/24/107270-Interstellar_movie.jpg' alt='Interestelar' width='1000'>");
+    }
+    else if (respuesta === "guerra mundial z") {
+        document.write("<img src='https://images8.alphacoders.com/414/414434.jpg' alt='Guerra Mundial Z' width='1000'>");
+    }
+    else {
+        document.write("<p>No has escogido la película de Shrek, Rocky, Interestelar y Guerra Mundial Z 😢</p>");
+    }
+</script>
+</body>
+</html>
